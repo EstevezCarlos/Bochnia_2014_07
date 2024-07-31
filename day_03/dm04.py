@@ -1,0 +1,13 @@
+z = zip([1, 2], [3, 4])
+rev_z = reversed(z)
+print(rev_z)
+x = reversed(list(reversed([1, 2, 3, 4])))
+print(*x)
+print(*[1, 2, 3, 4, 5, 6], sep='')
+rev = reversed('ABC')
+print(rev)
+print(*rev)
+print(type(rev) == list)
+print(isinstance(rev, list))
+
+print(sorted('ZXC'))
