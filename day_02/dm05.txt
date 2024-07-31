@@ -1,0 +1,6 @@
+"""
+>>> from dm05 import calc
+>>> calc(3,4,'+')
+7
+
+"""
