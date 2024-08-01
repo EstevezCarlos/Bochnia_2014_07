@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "day-04"
+version = "0.1.0"
+description = "My example poetry package"
+authors = ["Chuck Wheeler <archdoodle@gmail.com>"]
+license = "MiT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cowsay = "^6.1"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

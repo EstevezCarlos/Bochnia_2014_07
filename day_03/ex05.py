@@ -4,7 +4,6 @@ def scrape(lis, value):
         lis.remove(value)
     return result
 
-
 def scraped(lis, value):
     return list(filter(lambda item: item != value, lis))
 
